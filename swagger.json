@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://cse341-contacts-t4ro.onrender.com",
+  "host": "cse341-contacts-t4ro.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
