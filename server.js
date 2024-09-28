@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 const mongodb = require('./data/database');
 
 app.use('/',require('./routes'));
-
+app.use(bodyParser.json());
 
 mongodb.initDb((err) => {
     if(err) {
