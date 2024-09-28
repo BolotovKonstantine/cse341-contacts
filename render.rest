@@ -1,0 +1,49 @@
+### Get welcome message
+GET https://cse341-contacts-t4ro.onrender.com/
+Content-Type: application/json
+
+###
+
+### Get all contacts
+GET https://cse341-contacts-t4ro.onrender.com/contacts/
+Content-Type: application/json
+
+###
+
+### Create a new contact
+POST https://cse341-contacts-t4ro.onrender.com/contacts/
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1990-01-01"
+}
+
+###
+
+### Get contact by ID
+GET https://cse341-contacts-t4ro.onrender.com/contacts/{id}
+Content-Type: application/json
+
+###
+
+### Update contact
+PUT https://cse341-contacts-t4ro.onrender.com/contacts/{id}
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane.doe@example.com",
+  "favoriteColor": "green",
+  "birthday": "1991-02-02"
+}
+
+###
+
+### Delete contact
+DELETE https://cse341-contacts-t4ro.onrender.com/contacts/{id}
+Content-Type: application/json
